@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    overflow:hidden;
+    background-color: rgb(3, 21, 84);
+}
+.header{
+    width: 100%;
+    height:100vh;
+    background-image: url("./imgs/Description\ \(2\).png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-size: 100% auto; */
+    background-size: cover;
+    /* padding: 0% 0% 51.4% 0%; */
+    /* margin: auto; */
+    position: relative;
+}
+.header .img{
+    position: absolute;
+    bottom: 10px;
+}
+/* -------------- */
+.header .img img{
+    width: 15%;
+}
+.slide img{
+    width: 90%;
+}
+.a{
+    margin: auto;
+}
+.span{
+    color: aqua;
+}
+p{
+    font-size: 18px;
+    color: white;
+}
+.icon img{
+    width: 50%;
+}
+/* ----------logo------- */
+.logo img{
+    width: 11%;
+    padding: 5px;
+}
+.img1 img{
+    width: 15%;
+}
+.phone .group img{
+    width: 90%;
+}
+.footer img{
+    width: 100%;
+}
+/* -----icon-right */
+.icon-right img{
+    width:50px;
+   
+}
+.icon-right .m1{
+    position:fixed;
+    right: 10px;
+    bottom: 160px;
+}
+.icon-right .m2{
+    position:fixed;
+    right: 10px;
+    bottom: 100px;
+}
+.icon-right .m3{
+    position:fixed;
+    right: 10px;
+    bottom: 40px;
+}
+.main{
+    position: relative;
+}
+/* ----------/animation/---------- */
+
